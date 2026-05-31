@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+    color:#333;
+}
+
+nav{
+    background:#1f4e79;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+    background:white;
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#666;
+}
+
+section{
+    padding:40px;
+}
+
+.overview,
+.analysis,
+.recommendations,
+.dashboard,
+.skills{
+    background:white;
+    margin:20px;
+    border-radius:12px;
+    padding:30px;
+}
+
+.metrics{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#1f4e79;
+    margin-bottom:10px;
+}
+
+.dashboard img{
+    width:100%;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+.analysis ul,
+.recommendations ul{
+    margin-top:20px;
+    line-height:2;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill-box{
+    background:#1f4e79;
+    color:white;
+    padding:12px 20px;
+    border-radius:25px;
+}
+
+footer{
+    background:#1f4e79;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
